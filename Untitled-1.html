@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome to FallSMP</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1e1e2f, #2a2a3f);
+      color: white;
+      overflow-x: hidden;
+    }
+
+    header {
+      padding: 60px 20px;
+      text-align: center;
+      background: #111827;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #61dafb;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: #00d4ff;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #00d4ff;
+      display: inline-block;
+    }
+
+    .info-box {
+      background: #292f3f;
+      padding: 20px;
+      border-radius: 10px;
+      line-height: 1.7;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .button-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .button-container a {
+      text-decoration: none;
+      padding: 12px 25px;
+      color: white;
+      background: #3b82f6;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      font-weight: bold;
+      box-shadow: 0 5px 15px black;
+    }
+
+    .button-container a:hover {
+      background: #2563eb;
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px rgba(37, 99, 235, 0.5);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1f2937;
+      color: #aaa;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(0, 212, 255, 0.4); }
+      70% { box-shadow: 0 0 0 20px rgba(0, 212, 255, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(0, 212, 255, 0); }
+    }
+
+    .pulse-button {
+      animation: pulse 2s infinite;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>WELCOME TO THE FALLSMP 🛡️</h1>
+    <p>The #1 Community SMP - Pure Survival Chaos!</p>
+  </header>
+
+  <section class="section">
+    <h2>🌐 Server Information</h2>
+    <div class="info-box">
+      <p><strong>IP:</strong> fallsmp.falixsrv.me</p>
+      <p><strong>Version:</strong> 1.21+</p>
+      <p><strong>Platform:</strong> Java Only</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>🚨 Important Links</h2>
+    <div class="button-container">
+      <a class="pulse-button" href="https://www.fallsmp.start" target="_blank">Start Server</a>
+      <a href="https://www.fallsmp.apply" target="_blank">Staff Application</a>
+      <a href="https://www.fallsmp.appeal" target="_blank">Appeal Support</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 FallSMP - All rights reserved.
+  </footer>
+
+</body>
+</html>
